@@ -4,7 +4,117 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
+  background-image:url("../images/bgtile.png");
+  background-repeat: repeat-x;
+
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  /*padding: 20px;*/
+}
+
+
+main{
+  overflow: hidden;
+  width: 70%;
+  margin: 40px auto;
+}
+.phone {
+    float: left;
+    width: 40%;
+    display: inline-block;
+}
+.right{
+  display: inline-block;
+  float: left;
+  width: 60%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.homes{
+  overflow: hidden;
+}
+.textbox {
+    background-image:url("../images/frame.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+    width: 100%;
+}
+.insta{
+  float: left;
+  width: 50%;
+}
+
+.butt {
+   border: 1px outset blue;
+   background-color: lightBlue;
+   height:50px;
+   width:50px;
+   cursor:pointer;
+}
+.loginbutton{
+  float: right;
+  padding: 0px 10px;
+  border: 1px solid #06365f;
+  border-radius: 7px;
+  background-color: #1c5380;
+
+}
+.loginbutton > a{
+  text-transform: capitalize;
+}
+.loginbutton p{
+  margin:10px 0px;
+}
+
+.but{
+  color: #e5e7e6;
+  font-weight: bold;
+  padding: 0px 0px 15px 10px;
+}
+
+.text{
+  margin: 30px;
+}
+.text h1{
+  color: #06365f;
+  font-weight: bold;
+}
+.stores{
+  clear: both;
+  margin-left: 30px;
+}
+.iphone, .android{
+  margin: 10px 15px 0px 0px;
+}
+
+/*footer*/
+footer{
+  text-align: center;
+  margin: auto;
+}
+.foot{
+  clear: both;
+
+}
+ul{
+  list-style-type: none;
+
+}
+li{
+  display: inline-block;
+  padding: 0px 10px;
+}
+a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #1c5380;
+}
+.copyright{
+  color: lightgray;
+  text-transform: uppercase;
+  font-weight: bold;
 }
